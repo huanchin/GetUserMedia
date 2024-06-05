@@ -1,0 +1,62 @@
+/* General styles */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Video styles */
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button and input styles */
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  width: auto;
+  flex-shrink: 0;
+}
+
+.form-control {
+  display: inline-block;
+  width: auto;
+}
+
+.form-label {
+  margin-right: 10px;
+}
+
+select.form-select {
+  width: auto;
+  display: inline-block;
+}
+
+.mb-2 {
+  margin-bottom: 15px !important;
+}
+
+.me-2 {
+  margin-right: 10px !important;
+}
