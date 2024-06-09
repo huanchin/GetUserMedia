@@ -93,3 +93,7 @@ document
 document
   .querySelector("#play-record")
   .addEventListener("click", (e) => playRecording(e));
+
+document
+  .querySelector("#share-screen")
+  .addEventListener("click", () => shareScreen());
