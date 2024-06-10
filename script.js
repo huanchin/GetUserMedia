@@ -10,6 +10,7 @@ const getMicAndCamera = async (e) => {
   try {
     stream = await navigator.mediaDevices.getUserMedia(constraints);
     console.log(stream);
+    getDevices();
     changeButtons([
       "green",
       "blue",
@@ -97,3 +98,13 @@ document
 document
   .querySelector("#share-screen")
   .addEventListener("click", () => shareScreen());
+
+document
+  .querySelector("#audio-input")
+  .addEventListener("change", (e) => changeAudioInput(e));
+document
+  .querySelector("#audio-output")
+  .addEventListener("change", (e) => changeAudioOutput(e));
+document
+  .querySelector("#video-input")
+  .addEventListener("change", (e) => changeVideo(e));

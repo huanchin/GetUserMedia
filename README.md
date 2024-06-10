@@ -30,3 +30,5 @@
    Reference: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia
 
 ## Get input/ output device
+
+8. Use enumerateDevices to request a list of the currently available media input and output devices
